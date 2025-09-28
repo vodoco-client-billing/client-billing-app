@@ -506,16 +506,13 @@
         // configuration and ID to ensure the app initializes and stores data locally.
         const defaultAppId = 'local-job-manager';
         const fallbackFirebaseConfig = {
-            // NOTE: These values are placeholders designed to pass the initialization check.
-            // They will create a dummy local storage key, but DO NOT connect to a real Firebase project.
-            apiKey: "AIzaSyC_PLACEHOLDER_FOR_LOCAL_TESTING", 
-            authDomain: "local-app-test.firebaseapp.com",
-            projectId: "local-app-test",
-            storageBucket: "local-app-test.appspot.com",
-            messagingSenderId: "1234567890",
-            appId: "1:1234567890:web:abcdefghijklmnopqrstuvwxyz",
-            measurementId: "G-12345"
-        };
+               apiKey: "AIzaSyDEiUakvzE6acvLMwSVYoqqP7WKKHhyR4U",
+               authDomain: "clientbillinglive.firebaseapp.com",
+               projectId: "clientbillinglive",
+                storageBucket: "clientbillinglive.firebasestorage.app",
+               messagingSenderId: "400586974621",
+               appId: "1:400586974621:web:1acecdaa4158ab0de4bb74"
+         };
         
         // Determine final configuration settings: prefer Canvas variables, use fallback otherwise.
         const appId = typeof __app_id !== 'undefined' ? __app_id : defaultAppId;
